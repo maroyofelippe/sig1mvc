@@ -1,11 +1,11 @@
-# Fatec ZL - Centro Paula Souza
-## Disciplina - Programação Web III
-Grupo
-* Marco Antonio Royo Felippe
+# DPAC - DISTÚRBIO DO PROCESSAMENTO AUDITIVO CENTRAL
+## Fatec ZL - Centro Paula Souza
+### Disciplina - Programação Web III
 
+### Grupo
+> * Marco Antonio Royo Felippe
 
-## DPAC - DISTÚRBIO DO PROCESSAMENTO AUDITIVO CENTRAL:
-### Auditech – Treinamento para DPAC
+# Projeto: - **Auditech** – Plataforma de Treinamento para DPAC
 
 ## Problemática DPAC
 ### O que é o DPAC:
@@ -69,7 +69,7 @@ Em caso de alta, o paciente deixa de ter acesso a plataforma e aos treinamentos,
 | REQ012 | Durante o período de uma fase de treinamento o paciente deverá executar a quantidade de vezes ao dia com o intervalo em horas definidos pelo profissional | |
 | REQ013 | Decorridos os dias de treinamento previstos pelo profissional o paciente estará habilitado a executar um treino desafio em até três tentativas. Independentemente de ter sucesso nos treinos. | |
 | REQ014 | Após a execução de cada tentativa do treino desafio o paciente deverá alcançar média de acertos igual ou superior as definidas pelo profissional. | |
-| REQ015 | A composição da média final deverá seguir o seguinte modelo: ((Σ% 𝑎𝑐𝑒𝑟𝑡𝑜𝑠 𝑝𝑜𝑟 𝑑𝑖𝑎 / Σ𝑛º 𝑑𝑖𝑎𝑠) ×𝑝𝑒𝑠𝑜 𝑡𝑟𝑒𝑖𝑛𝑜)+((% 𝑎𝑐𝑒𝑟𝑡𝑜𝑠 𝑑𝑒𝑠𝑎𝑓𝑖𝑜) ×𝑝𝑒𝑠𝑜 𝑑𝑒𝑠𝑎𝑓𝑖𝑜). Caso não execute algum treinamento será somado zero pontos para efeito da composição da média. | |
+| REQ015 | A composição da média final deverá seguir o seguinte modelo: $$\left( \frac{\sum_{k=1}^n "acertos dia"}{ \sum_{k=1}^1 "dias" } \right) \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$ ((Σ% 𝑎𝑐𝑒𝑟𝑡𝑜𝑠 𝑝𝑜𝑟 𝑑𝑖𝑎 / Σ𝑛º 𝑑𝑖𝑎𝑠) ×𝑝𝑒𝑠𝑜 𝑡𝑟𝑒𝑖𝑛𝑜)+((% 𝑎𝑐𝑒𝑟𝑡𝑜𝑠 𝑑𝑒𝑠𝑎𝑓𝑖𝑜) ×𝑝𝑒𝑠𝑜 𝑑𝑒𝑠𝑎𝑓𝑖𝑜). Caso não execute algum treinamento será somado zero pontos para efeito da composição da média. | |
 | REQ016 | Após a execução das fases previstas para o treinamento o APP móvel (versão paciente) deverá ficar bloqueado, para que o paciente possa “descansar” dos treinos por período de 45 dias. Após este descanso o sistema deverá enviar um alerta para paciente e para o profissional para a execução da avaliação em cabine. | |
 | REQ017 | Todos os resultados parciais e totais deverão ficar armazenados para estatísticas globais do tratamento, divididos por clínica virtual. | | 
 | REQ018 | O profissional poderá ter apenas uma clínica virtual vinculada a seu usuário e terá acesso apenas aos dados dos tratamentos relacionados a esta clínica virtual. Os dados da clínica virtual bem como dos pacientes desta clínica, não poderão ser apagados pelo profissional e deverão ser protegidos nos termos da LGPD (Lei 13.709 - Lei Geral de Proteção aos Dados). | |
