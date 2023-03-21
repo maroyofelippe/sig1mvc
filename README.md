@@ -7,7 +7,33 @@ Grupo
 ## DPAC - DISTÚRBIO DO PROCESSAMENTO AUDITIVO CENTRAL:
 ### Auditech – Treinamento para DPAC
 
-### Narrativa da solução
+## Problemática DPAC
+### O que é o DPAC:
+> Na condição chamada de Transtorno ou Distúrbio do Processamento Auditivo Central (TPAC ou DPAC), o paciente apresenta algum tipo de falha para captar, classificar, organizar ou interpretar eventos acústicos, mesmo que a sua audição esteja preservada. Isso acontece quando há algum tipo de problema na “conversa” entre o ouvido e o cérebro, sem que ocorram, necessariamente, problemas ou déficits cognitivos. Sendo assim, a pessoa pode ter esse quadro sem nenhum tipo de comprometimento no seu nível de inteligência – embora, claro, ele também possa ocorrer em pacientes com atrasos no desenvolvimento intelectual.
+Este projeto está em sintonia com a ODS número 3 que visa assegurar uma vida saudável e promover o bem-estar para todas e todos, em todas as idades
+### Ocorrência:
+> Não existem estatísticas oficiais no Brasil, mas a prática clínica mostra que a incidência do Transtorno (TPAC/DPAC) é bem alta entre a população infantil. Estima-se que até 7% da população infantil em fase de alfabetização apresente algum grau de DPAC.
+### Exame:
+> A avaliação para identificar o TPAC / DPAC consiste em mensurar as habilidades auditivas, por meio de testes especiais realizados com equipamentos audiológicos (audiômetro, fone de ouvido específico e cabine acústica), onde são aplicados estímulos auditivos acusticamente controlados. Esses testes só podem ser feitos por fonoaudiólogos com as devidas habilitações para esse tipo de exame. O ideal é que estes exames sejam aplicados em crianças já alfabetizadas e com idade mínima de 7 anos para que seja mais confiável.
+### Treinamento Auditivo:
+> Caso sejam detectadas falhas em uma ou mais das chamadas habilidades auditivas do paciente, isso pode ser corrigido por meio de exercícios que visam o Treinamento Auditivo. Em média, são necessárias de 10 a 12 sessões, apenas, com intervalos que variam de 6 a 48 horas entre elas. Ou seja, em poucas semanas a pessoa já tem condições de apresentar uma performance bem melhor no aprendizado.
+Habilidades auditivas que podem interferir no processo de aprendizagem
+Uma vez captado o som, uma série de reações ocorrem em nível cerebral para que essa informação receba classificação e significado, ou seja, para que o processamento auditivo ocorra. Isso acontece graças às chamadas habilidades auditivas, que ocorrem de maneira automática e simultânea diante do estímulo sonoro. As habilidades são inúmeras, e falhas em uma ou várias delas podem apontar para o Transtorno/Distúrbio do Processamento Auditivo Central (TPAC/DPAC). Vejamos algumas destas habilidades:
+  * ### Localização:
+> Capacidade de identificar de onde está vindo a fonte sonora (exemplo: em uma reunião de trabalho, uma pessoa com déficit nessa habilidade chega a perder 30% do que está sendo dito);
+  * ### Figura de fundo:
+> Capacidade de focar no assunto principal e desconsiderar conversas ao entorno (exemplo: a pessoa vai a uma palestra e sai exausta porque para ela é muito difícil manter a atenção só no expositor, por causa de conversas paralelas);
+  * ### Fechamento:
+> Habilidade de completar mentalmente o que a outra pessoa está dizendo quando há um ruído no ambiente (máquinas, ventilador, interferência no celular). Para essas pessoas, as situações cotidianas muitas vezes parecem aquela antiga brincadeira do “telefone sem fio”: elas ouvem uma coisa, mas processam outra;
+  * ### Ordenação temporal:
+> Habilidade de identificar a ordem de apresentação de eventos acústicos que variam quanto a características acústicas como, por exemplo, frequência (grave e agudo) e duração (longo e curto), que interferem na prosódia. É um déficit muito comum de acontecer com quem tem dificuldade em aprender uma segunda língua (o português é uma língua grave, lenta e de palavras ampliadas; já o inglês é uma língua aguda, rápida e de palavras curtas e, por isso, para essas pessoas é difícil “treinar” o ouvido para essa nova realidade);
+  * ### Resolução temporal:
+> Ser capaz de perceber os pequenos intervalos sonoros de sílabas e sons (geralmente essas pessoas falam mais rápido e podem ter dificuldade na interpretação do que escutam).
+
+## Processo de Desenvolvimento de Software - PDS
+> O PDS segue uma abordagem interativa incremental adaptada do Scrum. Cada interação tem uma definição de pronto estabelecida com objetivo de controlar a qualidade.
+
+## Estudo de Caso – Auditech
 > Dada a problemática do DPAC, a proposta de solução será apresentada em uma plataforma onde o profissional de fonoaudiologia ao utilizá-la poderá fazer o cadastramento, prescrição de tratamento e acompanhamento individualizado de seus pacientes durante o tratamento e estatisticamente após o tratamento.
 O Fonoaudiólogo deverá se cadastrar no sistema, para que possa sua clínica virtual. Logo após deverá fazer o cadastro do paciente que deverá ser simples e objetivo, e este deverá ser acompanhado pelo profissional fonoaudiólogo.
 O paciente terá acesso a versão mobile da solução e após finalizado o cadastro do paciente, este receberá acesso ao aplicativo para dispositivos móveis (APP) para iniciar o tratamento.
@@ -20,14 +46,8 @@ Ao término das semanas de treinamento e com todos os desafios finalizados, o pa
 Após um período de 45 dias de "repouso" a plataforma deverá alertar o paciente e o profissional do fim de tempo de repouso e indicar a execução de um teste de avaliação em laboratório especializado. Com o exame de avaliação realizado, o paciente passará a ter acesso novamente ao APP caso precise refazer alguma das fases de treinamento, conforme orientação do Fonoaudiólogo.
 Em caso de alta, o paciente deixa de ter acesso a plataforma e aos treinamentos, ficando assim seu APP bloqueado para uso.
 
-
-
-
-## Processo de Desenvolvimento de Software - PDS
-> O PDS segue uma abordagem interativa incremental adaptada do Scrum. Cada interação tem uma definição de pronto estabelecida com objetivo de controlar a qualidade.
-
-
-## Estudo de Caso – Sistema Integrado de Gestão
+## Diagrama de Domínio
+![Hawgam_DC](https://user-images.githubusercontent.com/53828759/226623186-45f03494-91bc-43c6-84b2-5b85e23a23c0.jpg)
 
 
 ## Sprint Backlog
